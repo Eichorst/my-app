@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'pages/home'
+  get "heyo" => "pages#{}"
+
   mount SurveyorGui::Engine => "/surveyor_gui", :as => "surveyor_gui"
   mount Surveyor::Engine => "/surveys", :as => "surveyor"
   # The priority is based upon order of creation: first created -> highest priority.
