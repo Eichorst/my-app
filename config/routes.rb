@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
+  root "pages#home"
   get 'pages/home'
-  get "heyo" => "pages#{}"
+  get "heyo" => "pages#heyo"
 
   mount SurveyorGui::Engine => "/surveyor_gui", :as => "surveyor_gui"
   mount Surveyor::Engine => "/surveys", :as => "surveyor"
