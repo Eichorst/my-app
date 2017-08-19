@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.0.0'
 # gem 'surveyor', github: 'NUBIC/surveyor'
 # gem 'surveyor_gui'
 gem 'rails', '4.2.6'
@@ -18,7 +18,7 @@ end
 
 group :development, :test do
   gem 'sqlite3'
-  
+
 end
 group :production do
   gem 'pg'
