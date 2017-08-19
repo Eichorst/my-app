@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.3.1'
 # gem 'surveyor', github: 'NUBIC/surveyor'
 # gem 'surveyor_gui'
 gem 'rails', '4.2.6'
