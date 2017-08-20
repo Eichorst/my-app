@@ -12,3 +12,9 @@ $jumbotron-bg: white;
  //= depend_on_asset "bootstrap/glyphicons-halflings-regular.svg"
  //= depend_on_asset "bootstrap/glyphicons-halflings-regular.ttf"
  //= depend_on_asset "bootstrap/glyphicons-halflings-regular.woff"
+.center{
+  text-align: center;
+}
+.navbar-brand{
+  font-weight: bold;
+}
